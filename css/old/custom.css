@@ -1,0 +1,69 @@
+/* Add your custom css styles */
+ul,li{list-style:none;margin:0;padding:0}
+.i-play{display:block;background:url(../images/i-play.png) no-repeat;width:163px;height:163px;margin:0 auto}
+.i-play:hover{background:url(../images/i-play2.png) no-repeat;}
+.app-ios{display:inline-block;background:url(../images/app-ios.png) no-repeat;width:229px;height:71px;margin-right:10px}
+.app-android{display:inline-block;background:url(../images/app-android.png) no-repeat;width:229px;height:71px;margin:0 auto;margin-left:10px}
+.app-ios:hover{background:url(../images/app-ios-1.png) no-repeat}
+.app-android:hover{background:url(../images/app-android-1.png) no-repeat}
+.d-heading h2{color:#38b5d4}
+.d-heading > .lead{font-size:16px !important;color:#888 !important;font-weight:400 !important}
+.d-heading-2{color:#62bd4d}
+.pricing-table .plan-list{background:#fff}
+.d-icon{position:relative !important;margin:0 auto 25px}
+.d-contact{}
+.d-contact h2, .d-contact p{margin-left:0 !important;margin-right:0 !important}
+.d-contact{}
+.d-border{border-right:1px solid #e7e9e9}
+.d-user-manual{color:#fff}
+.d-user-manual h2{font-size:28px;color:#fff;font-weight:bold}
+.d-user-manual p{color:#fff}
+.d-user-manual ul li a{color:#fff;font-size:16px;display:block;padding:7px 0}
+.d-user-manual ul li a:hover{color:#67f6ff}
+.d-sign{float:right;margin-top:25px}
+.d-sign-in{color:#11a6cc;border:1px solid #11a6cc;display:inline-block;padding:7px 30px;border-radius:4em;text-transform:uppercase;font-size:16px;font-weight:500;margin-left:10px}
+.d-sign-up{background:#11a6cc;color:#fff;border:1px solid #11a6cc;display:inline-block;padding:7px 30px;border-radius:4em;text-transform:uppercase;font-size:16px;font-weight:500;margin-left:10px}
+
+.d-sign-up:hover{color:#fff;background:#1fb0d5;}
+.d-sign-in:focus{color:#11a6cc}
+.d-sign-up:focus{color:#fff}
+.header-sticky .d-sign{float:right;margin-top:10px}
+.modal-backdrop {background:url(../images/pattern/pattern13.png);opacity:.9}
+.modal-content{position:relative}
+.d-close{position:absolute;right:16px;top:16px;display:block;width:16px;height:16px;background:url(../images/d-close.png) no-repeat}
+.d-close:hover{background:url(../images/d-close2.png) no-repeat}
+.btn-group-sm > .btn, .btn-sm{font-size:14px}
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+.form-control, .input-group-addon{border:0; border-bottom:1px solid #d7d7d7;padding-left:5px;padding-right:5px}
+.d-lang{margin-top:35px;float:right;margin-left:20px;padding:0}
+.d-lang button{border:0;background:none}
+.d-lang .dropdown-menu{border-radius:0}
+.header-sticky .d-lang{margin-top:20px;color:#333}
+.d-terms{width:auto !important;color:#11a6cc !important;margin-left:30px !important}
+@media (max-width: 479px){
+	.d-big-logo img{width:85%}
+	.app-ios{margin-right:0}
+.app-android{margin-left:0}
+.d-border{border:0}
+	}

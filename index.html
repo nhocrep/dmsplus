@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>DMS Plus</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="vendor/animateit/animate.min.css" rel="stylesheet">
+
+    <!-- Vendor css -->
+    <link href="vendor/owlcarousel/owl.carousel.css" rel="stylesheet">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Template base -->
+    <link href="css/theme-base.css" rel="stylesheet">
+
+    <!-- Template elements -->
+    <link href="css/theme-elements.css" rel="stylesheet">
+
+    <!-- Responsive classes -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <!-- Template color -->
+    <link href="css/color-variations/blue.css" rel="stylesheet" type="text/css" media="screen" title="blue">
+
+    <!-- LOAD GOOGLE FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800"
+          rel="stylesheet" type="text/css"/>
+
+    <!-- CSS CUSTOM STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen"/>
+
+    <!--VENDOR SCRIPT-->
+    <script src="vendor/jquery/jquery-1.11.2.min.js"></script>
+    <script src="vendor/plugins-compressed.js"></script>
+</head>
+
+<body class="wide">
+
+<!-- WRAPPER -->
+<div class="wrapper">
+
+    <!-- HEADER -->
+    <header id="header" class="header-transparent header-dark">
+        <div id="header-wrap">
+            <div class="container">
+
+                <!--LOGO-->
+                <div id="logo"><a href="#homepage" class="logo nav-to" data-dark-logo="images/logo-dms.png"> <img
+                        src="images/logo-dms.png" alt="Polo Logo"> </a></div>
+                <!--END: LOGO-->
+
+                <!--MOBILE MENU -->
+                <div class="nav-main-menu-responsive">
+                    <button class="lines-button x" type="button" data-toggle="collapse"
+                            data-target=".main-menu-collapse"><span class="lines"></span></button>
+                </div>
+                <!--END: MOBILE MENU -->
+                <!--NAVIGATION-->
+                <div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
+                    <div class="container">
+                        <div class="dropdown d-lang">
+                          <button class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">English<span class="caret"></span> </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Tiếng Việt</a></li>
+                            <li><a href="#">Español</a></li>
+                            <li><a href="#">Português</a></li>
+                          </ul>
+                        </div>
+                        <div class="d-sign">
+                            <a href="http://m.dmsplus.net/" class="d-sign-in">{btn_signin}</a>
+                            <!--a href="#" class="d-sign-up" data-toggle="modal" data-target="#myModal-2">Sign Up</a-->
+                        </div>
+                        <nav id="mainMenu" class="main-menu mega-menu">
+                        <ul class="main-menu nav nav-pills">
+                                <li><a href="#homepage" class="nav-to">{m_home}</a></li>
+                                <li><a href="#getting" class="nav-to">{m_about}</a></li>
+                                <li><a href="#features" class="nav-to">{m_features}</a></li>
+                                <li><a href="#princing" class="nav-to">{m_price}</a></li>
+                                <li><a href="#us" class="nav-to">{m_manual}</a></li>
+                                <li><a href="#support" class="nav-to">{m_support}</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!--END: NAVIGATION-->
+            </div>
+        </div>
+    </header>
+    <!-- END: HEADER -->
+
+    <!-- SECTION IMAGE FULLSCREEN -->
+    <section id="homepage" class="fullscreen background-overlay"
+             data-vide-bg="homepages/video-background-dark/video/Typing/Typing3" data-vide-options="position: 0% 50%">
+        <div class="container-fluid">
+            <div class="container-fullscreen">
+                <div class="text-middle text-center text-light">
+                    <h2 class="text-medium m-t-0 animated fadeInUp d-big-logo"><img src="images/big-logo-dms.png" alt="Logo"></h2>
+                    <p class="lead p-t-30 p-b-30 animated fadeInUp" style="color:#eee">{title_statement}</p>
+                    <div>
+                        <a href="#" class="app-ios animated fadeInLeft"></a>
+                        <a href="files/DMSPLUS_VTG.apk" class="app-android animated fadeInRight"></a>
+                    </div>
+                </div>
+                <div id="scroll-down" class="scrolldown-animation">
+                    <a href="#getting" class="scroll-to"><img alt="" src="images/scrolldown.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION IMAGE FULLSCREEN -->
+
+    <!-- SIGN UP -->
+    <!--section id="about-us" style="background:#e9f4f6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8" data-animation="fadeInUp" data-animation-delay="0">
+                    <div class="icon-box effect medium border small">
+                        <h2>Getting Started</h2>
+                        <p>DMS PLUS, supported by the latest technology from Viettel, provide you with outstanding features which include online sales, monitoring & positioning support, most advanced sales model through distributors, multi level decentralization to customers and many more...</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-animation="fadeInUp" data-animation-delay="200">
+                    <div class="d-sign">
+                        <a href="#" class="d-sign-up" data-toggle="modal" data-target="#myModal-2">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section-->
+
+    <section id="getting">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>{getting_started}</h2>
+                    <p>{getting_started_intro}</p>
+                </div>
+                <div class="col-md-6 g-signup"><a href="#" class="d-sign-up" data-toggle="modal" data-target="#myModal-2">{btn_signup}</a></div>
+            </div>
+        </div>
+    </section>
+    <!-- SIGN UP -->
+
+    <!-- ABOUT US -->
+    <section id="about-us">
+        <div class="container">
+            <div class="heading heading-center d-heading">
+                <h2><i class="fa fa-users" aria-hidden="true"></i>{about_us}</h2>
+                <span class="lead p-t-30">{about_us_intro}</span>
+            </div>
+            <h2 class="d-heading-2">{valued_customer}</h2>
+            <div class="carousel clients-carousel" data-carousel-col="4" data-carousel-col-xs="1">
+                <div><a href="#"><img alt="" src="images/clients/1.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/2.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/3.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/4.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/5.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/6.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/7.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/8.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/9.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/10.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/11.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/12.jpg"></a></div>
+                <div><a href="#"><img alt="" src="images/clients/13.jpg"></a></div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT US -->
+
+    <!-- VIDEO -->
+    <section class="box-fancy text-light background-overlay-one"
+             style="background-image:url(images/pattern-icons/bg-video.jpg);background-position:center center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" data-animation="fadeInUp" data-animation-delay="200">
+                    <a href="#" class="i-play" data-toggle="modal" data-target="#myModal"></a>
+                    <h2>{watch_video}</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Video -->
+    <!-- Features -->
+    <section id="features">
+        <div class="container">
+            <div class="heading heading-center d-heading">
+                <h2><i aria-hidden="true" class="fa fa-cogs"></i>{features}</h2>
+                <span class="lead p-t-30">{features_intro}</span>
+            </div>
+            <div class="row">
+                <div class="col-md-6" data-animation="fadeInUp" data-animation-delay="0">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon"><a href="#"><i class="fa fa-plug"></i></a></div>
+                        <h2>{features1}</h2>
+                        <p>{features1_intro}</p>
+                    </div>
+                </div>
+                <div class="col-md-6" data-animation="fadeInUp" data-animation-delay="200">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon"><a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i> </a></div>
+                        <h2>{features2}</h2>
+                        <p>{features2_intro1}<br>{features2_intro2}</p>
+                    </div>
+                </div>
+                <div class="col-md-6" data-animation="fadeInUp" data-animation-delay="400">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon"><a href="#"><i class="fa fa-cloud"></i></a></div>
+                        <h2>{features3}</h2>
+                        <p>{features3_intro}</p>
+                    </div>
+                </div>
+                <div class="col-md-6" data-animation="fadeInUp" data-animation-delay="600">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon"><a href="#"><i class="fa fa-get-pocket" aria-hidden="true"></i> </a></div>
+                        <h2>{features4}</h2>
+                        <p>{features4_intro}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Features -->
+
+    <!-- Pricing Table Default -->
+    <section id="princing"
+             style="background-image:url(images/pattern-icons/bg-princing.jpg);background-position:center top;">
+        <div class="container">
+            <div class="heading heading-center d-heading">
+                <h2 style="color:#fff"><i class="fa fa-shopping-basket" aria-hidden="true"></i>{pricing}</h2>
+            </div>
+            <div class="row">
+                <div class="pricing-table colored">
+                    <div class="col-md-4 col-sm-4 col-xs-12 " data-animation="fadeInLeft" data-animation-delay="200">
+                        <div class="plan">
+                            <div class="plan-header">
+                                <h3 style="color:#fff">{pricing_basic}</h3>
+                                <!--<p class="text-muted">Plan short description</p>-->
+                                <div class="plan-price"><sup>{pricing_unit}</sup>5<span>/{pricing_month}</span></div>
+                                <a href="#" class="button transparent rounded effect icon-bottom"><span><i
+                                        class="fa fa-shopping-cart"></i>{btn_select}</span></a></div>
+                            <div class="plan-list">
+                                <ul>
+                                    <li><i class="fa fa-check "></i>{pricing_module0}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module1}</li>
+                                    <li><i class="fa fa-check"> </i>{pricing_module2}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module3}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module4}<br><br><br><br><br><br></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 " data-animation="fadeInUp" data-animation-delay="50">
+                        <div class="plan featured">
+                            <div class="plan-header">
+                                <h3 style="color:#fff">{pricing_business}</h3>
+                                <!--<p class="text-muted">Plan short description</p>-->
+                                <div class="plan-price"><sup>{pricing_unit}</sup>6<span>/{pricing_month}</span></div>
+                                <a class="button transparent rounded effect icon-bottom" href="#"><span><i
+                                        class="fa fa-shopping-cart"></i>{btn_select}</span></a></div>
+                            <div class="plan-list">
+                                <ul>
+                                    <li><i class="fa fa-check "></i>{pricing_module0}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module1}</li>
+                                    <li><i class="fa fa-check"> </i>{pricing_module2}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module3}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module4}</li>
+
+                                    <li><i class="fa fa-check "></i>{pricing_module5}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module6}<br><br><br><br></li>
+                                    <!--<li class="plan-featured-item text-center">1 month free trial</li>-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 " data-animation="fadeInRight" data-animation-delay="200">
+                        <div class="plan">
+                            <div class="plan-header">
+                                <h3 style="color:#fff">{pricing_professional}</h3>
+                                <!--<p class="text-muted">Plan short description</p>-->
+                                <div class="plan-price"><sup>{pricing_unit}</sup>7<span>/{pricing_month}</span></div>
+                                <a href="#" class="button transparent rounded effect icon-bottom"><span><i
+                                        class="fa fa-shopping-cart"></i>{btn_select}</span></a></div>
+                            <div class="plan-list">
+                                <ul>
+                                    <li><i class="fa fa-check "></i>{pricing_module0}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module1}</li>
+                                    <li><i class="fa fa-check"> </i>{pricing_module2}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module3}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module4}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module5}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module6}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module7}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module8}</li>
+                                    <li><i class="fa fa-check "></i>{pricing_module9}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Pricing Table Colored four columns-->
+        </div>
+    </section>
+    <!-- END: Pricing Table Default -->
+    <!-- APP SCREENSHOTS -->
+    <section>
+        <div class="container" data-animation="fadeInUp" data-animation-delay="200">
+            <div class="heading heading-center d-heading m-b-50">
+                <h2><i class="fa fa-desktop" aria-hidden="true"></i>{screenshot}</h2>
+            </div>
+            <div class="carousel" data-carousel-col="4" data-carousel-col-xs="2" data-lightbox-type="gallery">
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-1.jpg"
+                                         title="Login"><img
+                        src="homepages/app-showcase/images/app-1.jpg" alt=""></a></div>
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-2.jpg"
+                                         title="Dashboard"><img
+                        src="homepages/app-showcase/images/app-2.jpg" alt=""></a></div>
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-3.jpg"
+                                         title="Customer's general information"><img
+                        src="homepages/app-showcase/images/app-3.jpg" alt=""></a></div>
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-4.jpg"
+                                         title="Customer's statistic information"><img
+                        src="homepages/app-showcase/images/app-4.jpg" alt=""></a></div>
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-5.jpg"
+                                         title="Choose products"><img
+                        src="homepages/app-showcase/images/app-5.jpg" alt=""></a></div>
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-6.jpg"
+                                         title="Visit customer"><img
+                        src="homepages/app-showcase/images/app-6.jpg" alt=""></a></div>
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-7.jpg"
+                                         title="Visiting customer"><img
+                        src="homepages/app-showcase/images/app-7.jpg" alt=""></a></div>
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-8.jpg"
+                                         title="Visiting schedule map"><img
+                        src="homepages/app-showcase/images/app-8.jpg" alt=""></a></div>
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-9.jpg"
+                                         title="Sales detail"><img
+                        src="homepages/app-showcase/images/app-9.jpg" alt=""></a></div>
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-10.jpg"
+                                         title="Sales order detail"><img
+                        src="homepages/app-showcase/images/app-10.jpg" alt=""></a></div>
+                <div class="owl-item"><a href="homepages/app-showcase/images/app-11.jpg"
+                                         title="Register new customer"><img
+                        src="homepages/app-showcase/images/app-11.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+    <!-- END: APP SCREENSHOTS -->
+    <!-- User Manual -->
+    <section id="us" style="background:#11a6cc">
+        <div class="container">
+            <div class="heading heading-center ">
+                <h2 style="color:#67f6ff" class="m-b-40"><i class="fa fa-download" aria-hidden="true"></i>{manual}</h2>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-2 text-left d-user-manual" data-animation="fadeInUp"
+                         data-animation-delay="0">
+                        <div class="effect medium border small">
+                            <h2>{manual_website}</h2>
+                            <ul>
+                                <li><a href="files/DmsPlus_Admin.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> {manual_website_admin}</a></li>
+                                <li><a href="files/DmsPlus_Supervisor_Web.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> {manual_website_supervisor}</a></li>
+                                <li><a href="files/DmsPlus_Distributor.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> {manual_website_distributor}</a></li>
+                                <li><a href="files/FAQ_DMS.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> {manual_faq}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-md-offset-1 text-left d-user-manual" data-animation="fadeInUp"
+                         data-animation-delay="200">
+                        <div class="effect medium border small">
+                            <h2>{manual_mobile}</h2>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> {manual_mobile_supervisor}</a></li>
+                                <li><a href="files/DmsPlus_Salesman.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> {manual_mobile_salesman}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: User Manual -->
+
+    <!-- Support -->
+    <section id="support">
+        <div class="container">
+            <div class="heading heading-center d-heading">
+                <h2><i class="fa fa-phone-square" aria-hidden="true"></i>{support}</h2>
+                <span class="lead p-t-30">{support_intro}</span>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12" data-animation="fadeInUp" data-animation-delay="0">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon"><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> </a>
+                        </div>
+                        <h2>{support_phone}</h2>
+                        <p>{support_phone_intro}</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12" data-animation="fadeInUp" data-animation-delay="200">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon"><a href="#"><i class="fa fa-laptop" aria-hidden="true"></i> </a></div>
+                        <h2>{support_tech}</h2>
+                        <p>{support_tech_intro}</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12" data-animation="fadeInUp" data-animation-delay="400">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon"><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> </a></div>
+                        <h2>{support_onsite}</h2>
+                        <p>{support_onsite_intro}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Support -->
+
+    <!-- Contact -->
+    <section id="contact-us" style="background:#f8fdfd">
+        <div class="container">
+            <div class="heading heading-center d-heading">
+                <h2><i class="fa fa-book" aria-hidden="true"></i>{contact_us}</h2>
+                <span class="lead p-t-30">{contact_us_intro}</span></div>
+            <div class="row text-center">
+                <div class="col-sm-4 d-border" data-animation="fadeInUp" data-animation-delay="0">
+                    <div class="icon-box effect medium border small d-contact">
+                        <div class="icon d-icon"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i> </a></div>
+                        <h2>{contact_phone}</h2>
+                        <p>{contact_phone_content}</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-border" data-animation="fadeInUp" data-animation-delay="200">
+                    <div class="icon-box effect medium border small d-contact">
+                        <div class="icon d-icon"><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                        </div>
+                        <h2>{contact_address}</h2>
+                        <p>{contact_address_content}</p>
+                    </div>
+                </div>
+                <div class="col-sm-4" data-animation="fadeInUp" data-animation-delay="400">
+                    <div class="icon-box effect medium border small d-contact">
+                        <div class="icon d-icon"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> </a>
+                        </div>
+                        <h2>{contact_email}</h2>
+                        <p>{contact_email_content}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Contact -->
+    <!-- FOOTER -->
+    <footer class="background-dark text-grey" id="footer">
+        <div class="copyright-content">
+            <div class="container">
+                <div class="row">
+                    <div class="copyright-text col-md-6"><a href="#">{copyright}</a></div>
+                    <div class="col-md-6">
+                        <div class="social-icons">
+                            <ul>
+                                <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="social-google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="social-youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a href="#" class="d-terms" data-toggle="modal" data-target="#myModal-3">{terms_of_use}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END: FOOTER -->
+
+</div>
+<!-- END: WRAPPER -->
+<!-- Modal Video-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog modal-lg vertical-align-center" role="document">
+            <div class="modal-content " data-animation="fadeInUp" data-animation-delay="0">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5gWl54NsDdU"></iframe>
+                </div>
+                <a href="#" class="d-close" title="Đóng lại" data-dismiss="modal"></a></div>
+        </div>
+    </div>
+</div>
+<!-- End Modal Video-->
+<!-- Modal Sign Up-->
+<div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <!--<iframe src="https://docs.google.com/forms/d/18YqYvq0QsjEhy0eHGqpGbNICBYua12n92NyqbP1PyS4/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+            <div class="heading heading-center d-heading m-t-30 m-b-50">
+                <h2><i class="fa fa-pencil" aria-hidden="true"></i> Sign up</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+
+                    <form>
+                        <h3 class="m-b-20 text-center">Company Information</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" name="company code"
+                                           placeholder="Company Code" id="company_code" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" name="company name"
+                                           placeholder="Company Name" id="company_name" aria-required="true">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" name="representative"
+                                           placeholder="Representative" id="representative" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" name="phone number"
+                                           placeholder="Phone number" id="phone_number" aria-required="true">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" name="email address"
+                                           placeholder="Email Address" id="email_address" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" name="company address"
+                                           placeholder="Company Address" id="company_address" aria-required="true">
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="m-b-20 m-t-30 text-center">Register services</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" name="sms phone number"
+                                           placeholder="Phone number receive password" id="sms_phone_number" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required email" name="reference id"
+                                           placeholder="Reference ID" id="reference_id" aria-required="true">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" name="captcha"
+                                           placeholder="Captcha" id="captcha" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <img alt="" src="images/captcha.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-t-10">
+                            <div class="col-md-12">
+                                <div class="form-group text-center">
+                                    <button class="btn btn-primary" type="submit">Sign up</button>
+                                    <button class="btn btn-sm" type="submit">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <a href="#" class="d-close" title="close popup" data-dismiss="modal"></a></div>
+
+    </div>
+</div>
+<!-- End Sign Up-->
+<!-- Modal Terms of use-->
+<div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="heading heading-center d-heading m-t-30 m-b-50">
+                <h2><i class="fa" aria-hidden="true"></i>{terms_of_use}</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+
+
+                    <h4>{tou_h1}</h4>
+
+                    <p>{tou_h1_p1}</p>
+                    <p>{tou_h1_p2}</p>
+                    <p>{tou_h1_p3}</p>
+                    <p>{tou_h1_p4}</p>
+
+                    <h4>{tou_h2}</h4>
+                    <p>{tou_h2_p1}</p>
+                    <p>{tou_h2_p2}</p>
+                    <p>{tou_h2_p3}</p>
+
+                    <h4>tou_h3</h4>
+                    <h5>tou_h3_1</h5>
+
+                    <p>{tou_h3_p1}</p>
+                    <p>{tou_h3_p2}</p>
+                    <p>{tou_h3_p3}</p>
+
+                    <h5>tou_h3_2</h5>
+                    <p>{tou_h3_p4}</p>
+                    <p>{tou_h3_p5}</p>
+                    <p>{tou_h3_p6}</p>
+                    <p>{tou_h3_p7}</p>
+                    <p>{tou_h3_p8}</p>
+
+                    <h4>tou_h4</h4>
+                    <h5>{tou_h4_1}</h5>
+                    <p>{tou_h4_p1}</p>
+                    <p>{tou_h4_p2}</p>
+                    <p>{tou_h4_p3}</p>
+                    <p>{tou_h4_p4}</p>
+                    <p>{tou_h4_p5}</p>
+
+                    <h5>{tou_h4_2}</h5>
+                    <p>{tou_h4_p6}</p>
+                    <p>{tou_h4_p7}</p>
+                    <p>{tou_h4_p8}</p>
+                    <p>{tou_h4_p9}</p>
+                    <p>{tou_h4_p10}</p>
+
+                    <h4>{tou_h5}</h4>
+                    <p>{tou_h5_p1}</p>
+                    <p>{tou_h5_p2}</p>
+                    <p>{tou_h5_p3}</p>
+                    <p>{tou_h5_p4}</p>
+                    <p>{tou_h5_p5}</p>
+
+                    <h4>{tou_h6}</h4>
+                    <p>{tou_h6_p1}</p>
+
+                    <h4>{tou_h7}</h4>
+                    <p>{tou_h7_p1}</p>
+                    <p>{tou_h7_p2}</p>
+                    <p>{tou_h7_p3}</p>
+
+                    <h4>{tou_h8}</h4>
+                    <p>{tou_h8_p1}</p>
+                    <p>{tou_h8_p2}</p>
+                    <p>{tou_h8_p3}</p>
+                </div>
+            </div>
+            <a href="#" class="d-close" title="Đóng lại" data-dismiss="modal"></a></div>
+    </div>
+</div>
+<!-- End Terms of use-->
+<!-- GO TOP BUTTON -->
+<a class="gototop gototop-button" href="#"><i class="fa fa-chevron-up"></i></a>
+
+<!-- Theme Base, Components and Settings -->
+<script src="js/theme-functions.js"></script>
+
+<!-- Custom js file -->
+<script src="lang.js"></script>
+
+<script src="js/custom.js"></script>
+</body>
+</html>
