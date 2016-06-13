@@ -71,10 +71,11 @@
                     <div class="container">
                         <div class="dropdown d-lang">
                           <button class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">English<span class="caret"></span> </button>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <li><a href="#">Tiếng Việt</a></li>
-                            <li><a href="#">Español</a></li>
-                            <li><a href="#">Português</a></li>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="change_lang">
+                            <li><a href="#" lang="en">English</a></li>
+                            <li><a href="#" lang="en">Tiếng Việt</a></li>                        
+                            <li><a href="#" lang="es">Español</a></li>
+                            <li><a href="#" lang="po">Português</a></li>
                           </ul>
                         </div>
                         <div class="d-sign">
@@ -621,21 +622,21 @@
                     <p><font class="replace_text">{tou_h2_p2}</font></p>
                     <p><font class="replace_text">{tou_h2_p3}</font></p>
 
-                    <h4>tou_h3</h4>
-                    <h5>tou_h3_1</h5>
+                    <h4><font class="replace_text">{tou_h3}</font></h4>
+                    <h5><font class="replace_text">{tou_h3_1}</font></h5>
 
                     <p><font class="replace_text">{tou_h3_p1}</font></p>
                     <p><font class="replace_text">{tou_h3_p2}</font></p>
                     <p><font class="replace_text">{tou_h3_p3}</font></p>
 
-                    <h5>tou_h3_2</h5>
+                    <h5><font class="replace_text">{tou_h3_2}</font></h5>
                     <p><font class="replace_text">{tou_h3_p4}</font></p>
                     <p><font class="replace_text">{tou_h3_p5}</font></p>
                     <p><font class="replace_text">{tou_h3_p6}</font></p>
                     <p><font class="replace_text">{tou_h3_p7}</font></p>
                     <p><font class="replace_text">{tou_h3_p8}</font></p>
 
-                    <h4>tou_h4</h4>
+                    <h4><font class="replace_text">{tou_h4}</font></h4>
                     <h5><font class="replace_text">{tou_h4_1}</font></h5>
                     <p><font class="replace_text">{tou_h4_p1}</font></p>
                     <p><font class="replace_text">{tou_h4_p2}</font></p>
@@ -674,7 +675,12 @@
             <a href="#" class="d-close" title="Đóng lại" data-dismiss="modal"></a></div>
     </div>
 </div>
+<style type="text/css">
 
+#mainMenu > ul > li > a {
+    font-size: 14px;
+}
+</style>
 
 <!-- End Terms of use-->
 <!-- GO TOP BUTTON -->
